@@ -20,7 +20,7 @@
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+String(" a method uses an active element and a function requires an execution")
 
 /**
  * QUESTION #2 -
@@ -34,7 +34,7 @@ for (let i = 0; i = timesToLoop; i++) {
     console.log('I am looping!');
 }
 
-""
+String("the argument is set inside the parameters")
 
 /**
  * QUESTION #3 -
@@ -44,7 +44,7 @@ for (let i = 0; i = timesToLoop; i++) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+String("i believe its an 'if' conditional")
 
 /**
  * QUESTION #4 -
@@ -53,7 +53,7 @@ for (let i = 0; i = timesToLoop; i++) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+String("to execute specific related commands upon execution and not constant in the browser)"
 
 /**
  * QUESTION #5 -
@@ -67,7 +67,7 @@ for (let i = 0; i = timesToLoop; i++) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+String("C. document.createElement('div')")
 
 /**
  * QUESTION #6 -
@@ -76,7 +76,7 @@ for (let i = 0; i = timesToLoop; i++) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+String("Document Object Manager"
 
 /**
  * QUESTION #7 -
@@ -86,16 +86,17 @@ for (let i = 0; i = timesToLoop; i++) {
  */
 
 function testQuestionSeven() {
-    let statement = "Assessments are fun, right?!";
+        let statement = "Assessments are fun, right?!";
 
-    if (statement === true) {
-        console.log('Yes!');
-    } else {
-        console.log('No!');
+        if (statement === true) {
+            console.log('Yes!');
+        } else {
+            console.log('No!');
+        }
     }
-}
 
-""
+String("i dont know if im over thinking but i believe it wont execute because its not called to outside the function but i believe otherwise it will be 'no!' because the argument is saying that true should be the same as 'assesment...'")
+
 
 /**
  * QUESTION #8 -
@@ -105,7 +106,7 @@ function testQuestionSeven() {
  * Hint: Think of their general TYPE....
  */
 
-""
+String("they are numerical or factorial"
 
 /**
  * QUESTION #9 -
@@ -114,7 +115,7 @@ function testQuestionSeven() {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+String("i dont know but i believe its to proccess the commands of functions"
 
 /**
  * QUESTION #10 -
@@ -135,7 +136,7 @@ switch (value) {
         console.log('We are out of food...');
 };
 
-""
+String("should output as 'We are out of food...'")
 
 /**
  * QUESTION #11 -
@@ -145,7 +146,11 @@ switch (value) {
  */
 
 function createGrid(width, height) {
-
+    for (let i = 0; i < height; i++)
+        let row = document.createElement('div')
+    for (let j = 0; j < width; j++)
+        let square = document.querySelector('.square')
+        square.createElement
 }
 
 /**
@@ -155,7 +160,7 @@ function createGrid(width, height) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+String("global variables are accessable from anywhere, where local varables are only available in that written code, i believe for a function or in that spwecific module"
 
 /**
  * QUESTION #13 - (EXTRA CREDIT!)
@@ -169,4 +174,4 @@ function createGrid(width, height) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-""
+String("'get'")
