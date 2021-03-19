@@ -20,7 +20,7 @@
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-String(" a method uses an active element and a function requires an execution")
+String ('a method is a chunk of code that refers to a parent object or class and can change stuff inside that parent object/class, a function is a stand alone chunk of code that doesnt affect anything outside of it')
 
 /**
  * QUESTION #2 -
@@ -34,7 +34,7 @@ for (let i = 0; i = timesToLoop; i++) {
     console.log('I am looping!');
 }
 
-String("the argument is set inside the parameters")
+String('there is only an equals sign in the "conditional" of the for loop and should be either a less than"<" or "<="')
 
 /**
  * QUESTION #3 -
@@ -44,7 +44,7 @@ String("the argument is set inside the parameters")
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-String("i believe its an 'if' conditional")
+String(" for conditionals that only have 2 possibilities a ternarie is the best type to use")
 
 /**
  * QUESTION #4 -
@@ -53,7 +53,7 @@ String("i believe its an 'if' conditional")
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-String("to execute specific related commands upon execution and not constant in the browser)"
+String("to execute specific related commands upon execution and not constant in the browser")
 
 /**
  * QUESTION #5 -
@@ -76,7 +76,7 @@ String("C. document.createElement('div')")
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-String("Document Object Manager"
+String('Document Object Model')
 
 /**
  * QUESTION #7 -
@@ -106,7 +106,7 @@ String("i dont know if im over thinking but i believe it wont execute because it
  * Hint: Think of their general TYPE....
  */
 
-String("they are numerical or factorial"
+String(' they are all in the "Numbers" type')
 
 /**
  * QUESTION #9 -
@@ -115,7 +115,7 @@ String("they are numerical or factorial"
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-String("i dont know but i believe its to proccess the commands of functions"
+String(' an IIFE essentially closes the "true" global space and localizes the whole scope so that the codes inside cant be overwritten by outside sources')
 
 /**
  * QUESTION #10 -
@@ -144,14 +144,21 @@ String("should output as 'We are out of food...'")
  * 
  * Answer Type: Function
  */
-
-function createGrid(width, height) {
-    for (let i = 0; i < height; i++)
-        let row = document.createElement('div')
-    for (let j = 0; j < width; j++)
-        let square = document.querySelector('.square')
-        square.createElement
+let container = document.querySelector(".my-grid")
+function makeGrid(width, height){
+    for (let i = 0; i< height; i++){
+        let row = document.createElement('div');
+        container.appendChild(row);
+        for (let j = 0; j < width; j++){
+            let square = document.createElement('div');
+            square.classList.add("square");
+            row.appendChild(square);
+        }
+     
+    }
 }
+makeGrid(30, 30);
+
 
 /**
  * QUESTION #12 -
@@ -160,7 +167,7 @@ function createGrid(width, height) {
  * Answer Type: String (Add Answer Between Quotes)
  */
 
-String("global variables are accessable from anywhere, where local varables are only available in that written code, i believe for a function or in that spwecific module"
+ String(' A global variable is accessible from anywhere and can be changed, a local variable is only available inside its respective scope/function')
 
 /**
  * QUESTION #13 - (EXTRA CREDIT!)
